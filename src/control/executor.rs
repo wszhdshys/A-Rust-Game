@@ -364,6 +364,8 @@ impl Executors {
                         self.is_lose = true;
                     }
                     MapPlace::Block => {
+                        self.executors[(y + Y_MAX) as usize][(x + X_MAX) as usize] =
+                            MapPlace::Place;
                         self.executors[(y_ + Y_MAX) as usize][(x_ + X_MAX) as usize] =
                             MapPlace::Place;
                     }

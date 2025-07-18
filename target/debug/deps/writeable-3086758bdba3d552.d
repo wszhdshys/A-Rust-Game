@@ -1,0 +1,12 @@
+D:\A-Rust-Game\target\debug\deps\libwriteable-3086758bdba3d552.rmeta: C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\writeable-0.6.1\src/lib.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\writeable-0.6.1\src\cmp.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\writeable-0.6.1\src\impls.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\writeable-0.6.1\src\ops.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\writeable-0.6.1\src\parts_write_adapter.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\writeable-0.6.1\src\testing.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\writeable-0.6.1\src\to_string_or_borrow.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\writeable-0.6.1\src\try_writeable.rs
+
+D:\A-Rust-Game\target\debug\deps\writeable-3086758bdba3d552.d: C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\writeable-0.6.1\src/lib.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\writeable-0.6.1\src\cmp.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\writeable-0.6.1\src\impls.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\writeable-0.6.1\src\ops.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\writeable-0.6.1\src\parts_write_adapter.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\writeable-0.6.1\src\testing.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\writeable-0.6.1\src\to_string_or_borrow.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\writeable-0.6.1\src\try_writeable.rs
+
+C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\writeable-0.6.1\src/lib.rs:
+C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\writeable-0.6.1\src\cmp.rs:
+C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\writeable-0.6.1\src\impls.rs:
+C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\writeable-0.6.1\src\ops.rs:
+C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\writeable-0.6.1\src\parts_write_adapter.rs:
+C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\writeable-0.6.1\src\testing.rs:
+C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\writeable-0.6.1\src\to_string_or_borrow.rs:
+C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\writeable-0.6.1\src\try_writeable.rs:

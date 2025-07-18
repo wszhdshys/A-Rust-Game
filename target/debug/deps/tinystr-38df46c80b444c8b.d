@@ -1,0 +1,12 @@
+D:\A-Rust-Game\target\debug\deps\libtinystr-38df46c80b444c8b.rmeta: C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tinystr-0.8.1\src/lib.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tinystr-0.8.1\src\macros.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tinystr-0.8.1\src\ascii.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tinystr-0.8.1\src\asciibyte.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tinystr-0.8.1\src\error.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tinystr-0.8.1\src\int_ops.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tinystr-0.8.1\src\unvalidated.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tinystr-0.8.1\src\ule.rs
+
+D:\A-Rust-Game\target\debug\deps\tinystr-38df46c80b444c8b.d: C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tinystr-0.8.1\src/lib.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tinystr-0.8.1\src\macros.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tinystr-0.8.1\src\ascii.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tinystr-0.8.1\src\asciibyte.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tinystr-0.8.1\src\error.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tinystr-0.8.1\src\int_ops.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tinystr-0.8.1\src\unvalidated.rs C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tinystr-0.8.1\src\ule.rs
+
+C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tinystr-0.8.1\src/lib.rs:
+C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tinystr-0.8.1\src\macros.rs:
+C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tinystr-0.8.1\src\ascii.rs:
+C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tinystr-0.8.1\src\asciibyte.rs:
+C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tinystr-0.8.1\src\error.rs:
+C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tinystr-0.8.1\src\int_ops.rs:
+C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tinystr-0.8.1\src\unvalidated.rs:
+C:\Users\54736\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tinystr-0.8.1\src\ule.rs:
