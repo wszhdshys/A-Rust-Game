@@ -1,10 +1,10 @@
 [package]
 name = "software"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [lib]
-name = "sofeware"
+name = "software"
 path = "src/lib.rs"
 
 [dependencies]
