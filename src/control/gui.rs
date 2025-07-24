@@ -1,7 +1,7 @@
 use crate::control::executor::{Executors, MapPlace};
-use crate::control::play::{AppMessage, send_message};
+use crate::control::play::{send_message, AppMessage};
 use eframe::egui;
-use egui::{CentralPanel, Color32, FontId, RichText, TextStyle, Window, vec2};
+use egui::{vec2, CentralPanel, Color32, FontId, RichText, TextStyle, Window};
 use std::sync::mpsc;
 use std::sync::mpsc::{Receiver, Sender};
 use std::thread;
@@ -56,6 +56,7 @@ impl eframe::App for MyApp {
                     Ok(AppMessage::MoveEnemies) => self.map.enemy_move(),
                     Ok(AppMessage::Shoot) => self.map.shoot(),
                     Ok(AppMessage::MoveShoot) => self.map.shoot_move(),
+                    Ok(AppMessage::SpawnBlock) => self.map.spawn_block(),
                     _ => {}
                 }
             }
@@ -141,7 +142,7 @@ impl eframe::App for MyApp {
                                 if let MapPlace::Place = cell {
                                     ui.label("+".to_string());
                                 } else if let MapPlace::Block = cell {
-                                  ui.label("#".to_string());
+                                    ui.label("#".to_string());
                                 } else if let MapPlace::Player(player) = cell {
                                     let (_, _, heading) = player.query();
                                     ui.colored_label(
