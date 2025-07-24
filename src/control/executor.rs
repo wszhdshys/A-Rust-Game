@@ -153,7 +153,7 @@ pub enum MapPlace {
     Enemy(Executor),
     Shoot(Executor),
     Place,
-    Block
+    Block,
 }
 
 impl Default for MapPlace {
@@ -177,7 +177,7 @@ impl Executors {
     pub fn new() -> Self {
         let mut executors = [[MapPlace::Place; (2 * X_MAX + 1) as usize]; (2 * Y_MAX + 1) as usize];
         let mut enemy_place = Vec::new();
-        for _ in 0..10{
+        for _ in 0..10 {
             let mut rng = rand::thread_rng();
             let block_x = rng.gen_range(0..13);
             let block_y = rng.gen_range(0..11);
@@ -216,6 +216,24 @@ impl Executors {
             self.executors[(-Y_MAX + Y_MAX) as usize][(-X_MAX + 2 + X_MAX) as usize] =
                 MapPlace::Enemy(Executor::with_pose(Pose::new(-X_MAX + 2, -Y_MAX, 'S')));
             self.enemy_place.push((-X_MAX + 2, -Y_MAX));
+        }
+    }
+
+    pub fn spawn_block(&mut self) {
+        for _ in 0..3 {
+            let mut rng = rand::thread_rng();
+            let block_x = rng.gen_range(0..13);
+            let block_y = rng.gen_range(0..11);
+            if (block_x, block_y) != (self.player_x, self.player_y)
+                && !self
+                    .enemy_place
+                    .contains(&(block_x - X_MAX, block_y - Y_MAX))
+                && !self
+                    .shoot_place
+                    .contains(&(block_x - X_MAX, block_y - Y_MAX))
+            {
+                self.executors[block_y as usize][block_x as usize] = MapPlace::Block;
+            }
         }
     }
 

@@ -5,6 +5,7 @@ use std::time::Duration;
 
 #[derive(Debug)]
 pub enum AppMessage {
+    SpawnBlock,
     SpawnEnemy,
     MoveEnemies,
     MoveShoot,
@@ -14,15 +15,13 @@ pub enum AppMessage {
 
 pub fn send_message(tx: Sender<AppMessage>, rx: Receiver<AppMessage>) {
     let (t, r) = mpsc::channel();
-    for i in 0..4 {
+    for i in 0..5 {
         let t_clone = t.clone();
         match i {
             0 => {
-                thread::spawn(move || {
-                    loop {
-                        t_clone.send(AppMessage::SpawnEnemy).expect("接收者已drop");
-                        thread::sleep(Duration::from_secs(10))
-                    }
+                thread::spawn(move || loop {
+                    t_clone.send(AppMessage::SpawnEnemy).expect("接收者已drop");
+                    thread::sleep(Duration::from_secs(10))
                 });
             }
             1 => {
@@ -47,8 +46,17 @@ pub fn send_message(tx: Sender<AppMessage>, rx: Receiver<AppMessage>) {
                 thread::spawn(move || {
                     thread::sleep(Duration::from_secs(4));
                     loop {
-                        thread::sleep(Duration::from_millis(1500));
+                        thread::sleep(Duration::from_millis(1000));
                         t_clone.send(AppMessage::MoveShoot).expect("接收者已drop");
+                    }
+                });
+            }
+            4 => {
+                thread::spawn(move || {
+                    thread::sleep(Duration::from_secs(10));
+                    loop {
+                        thread::sleep(Duration::from_secs(10));
+                        t_clone.send(AppMessage::SpawnBlock).expect("接收者已drop");
                     }
                 });
             }
